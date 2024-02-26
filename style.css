@@ -1,0 +1,36 @@
+/*
+Author: Catalina Escalona
+Coding Lab Project Work
+Winter Semester 2023/24
+University of Applied Arts
+Vienna, Austria
+
+Last updated: February 26, 2024
+
+Based off of Nahuel Gerth's starter code:
+https://github.com/NahuelGerthVK/bodytracking-p5-mediapipe/tree/main/04_resize_letter
+
+MediaPipe hand landmark detection documentation:
+https://developers.google.com/mediapipe/solutions/vision/hand_landmarker
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+video {
+  transform: scaleX(-1);
+}

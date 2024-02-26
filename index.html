@@ -1,0 +1,40 @@
+<!--
+    Author: Catalina Escalona
+    Coding Lab Project Work
+    Winter Semester 2023/24
+    University of Applied Arts
+    Vienna, Austria
+
+    Last updated: February 26, 2024
+
+    Based off of Nahuel Gerth's starter code:
+    https://github.com/NahuelGerthVK/bodytracking-p5-mediapipe/tree/main/04_resize_letter
+
+    MediaPipe hand landmark detection documentation:
+    https://developers.google.com/mediapipe/solutions/vision/hand_landmarker
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hand Detection Experiment</title>
+    
+    <!-- setup for p5.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    
+    <!-- setup for mediapipe -->
+    <script type="module">
+        import { mediaPipe } from "./mediaPipe.js";
+        // make mediaPipe available everywhere
+        window.mediaPipe = mediaPipe;
+    </script>
+
+    <!-- setup for sketch -->
+    <script defer language="javascript" type="text/javascript" src="sketch.js"></script>
+    
+    <!-- setup for css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body></body>
+</html>
